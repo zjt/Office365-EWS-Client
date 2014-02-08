@@ -22,7 +22,6 @@ Set up your Office 365 Exchange Web Services client.
      server         => 'pod12345.outlook.com',
      username       => 'oliver@some.org',
      password       => 's3krit', # or set in $ENV{EWS_PASS}
-     server_version => "Exchange2010_SP2",
  });
 
 Then perform operations on the Exchange server:
